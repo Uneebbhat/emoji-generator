@@ -19,6 +19,11 @@ function showEmoji() {
         case "tired":
             emoji = "😴";
             break;
+        case 'love || heart':
+            emoji = '♥' ;
+            break;
+        case 'fire':
+            emoji = '🔥'       
         default:
             emoji = "❓";
             break;
