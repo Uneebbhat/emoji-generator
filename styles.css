@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.main-wrapper {
+    margin-top: 40px;
+}
+
+.emoji-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+.emoji-wrapper > * {
+    margin: 10px 0;
+}
+
+.emoji-wrapper label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.emoji-wrapper input {
+    padding: 8px 16px;
+    outline: none;
+}
+
+.emoji-wrapper button {
+    padding: 8px 16px;
+    background-color: rgb(36, 36, 234);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#emoji-container {
+    font-size: 10rem;
+    text-align: center;
+}
